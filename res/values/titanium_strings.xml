@@ -19,6 +19,12 @@
     <!-- Titanium version on About phone -->
     <string name="rom_version_title">Titanium version</string>
 
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text">"<xliff:g id="package_name">%1$s</xliff:g>"</string>
 </resources>
