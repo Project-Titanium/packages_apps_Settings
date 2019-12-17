@@ -15,4 +15,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="background_processes_settings_title">Background processes</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="net_monitor_category_title">Network monitor</string>
+    <string name="network_traffic_state_title">Show net activity in expanded statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 </resources>
