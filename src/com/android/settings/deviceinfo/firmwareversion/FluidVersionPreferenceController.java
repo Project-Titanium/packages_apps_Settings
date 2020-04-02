@@ -22,10 +22,10 @@ import androidx.annotation.VisibleForTesting;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class FluidVersionPreferenceController extends BasePreferenceController {
+public class TitaniumVersionPreferenceController extends BasePreferenceController {
 
     @VisibleForTesting
-    private static final String FLUID_VERSION_PROPERTY = "ro.fluid.build.version";
+    private static final String TITANIUM_VERSION_PROPERTY = "ro.titanium.build.version";
 
     public FluidVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
@@ -38,7 +38,7 @@ public class FluidVersionPreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(FLUID_VERSION_PROPERTY,
+        return SystemProperties.get(TITANIUM_VERSION_PROPERTY,
                 mContext.getString(R.string.device_info_default));
     }
 }

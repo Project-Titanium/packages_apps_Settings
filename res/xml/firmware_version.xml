@@ -45,13 +45,13 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
 
-    <!-- Fluid version -->
+    <!-- Titanium version -->
     <Preference
-        android:key="fluid_version"
-        android:title="@string/fluid_version"
+        android:key="titanium_version"
+        android:title="@string/titanium_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.FluidVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.TitaniumVersionPreferenceController"/>
 
     <!-- Baseband -->
     <Preference

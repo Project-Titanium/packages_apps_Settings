@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
+     Copyright (C) 2019 Yodita
      Copyright (C) 2020 FluidProject
      
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,7 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Fluid version -->
-    <string name="fluid_version">FluidOS Версия</string>
+    <!-- Titanium version -->
+    <string name="titanium_version">Versión de ProjectTitanium</string>
 </resources>
 

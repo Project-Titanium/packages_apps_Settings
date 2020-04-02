@@ -22,8 +22,8 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
-    <!-- Fluid version -->
-    <string name="fluid_version">FluidOS version</string>
+    <!-- Titanium version -->
+    <string name="titanium_version">ProjectTitanium version</string>
 
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
