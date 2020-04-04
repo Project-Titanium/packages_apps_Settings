@@ -148,7 +148,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import com.titanium.settings.TitaniumSettings
+import com.titanium.settings.TitaniumSettings;
 
 public class SettingsGateway {
 
