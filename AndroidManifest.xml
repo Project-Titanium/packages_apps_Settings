@@ -3288,6 +3288,19 @@
                 android:value="com.android.settings.gestures.GlobalActionsPanelSettings" />
         </activity>
 
+        <!-- Titanium Settings -->
+        <activity android:name=".Settings$TitaniumSettingsActivity"
+            android:label="@string/titanium_settings_title"
+            android:icon="@drawable/ic_home_ti"
+            android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="69">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.titanium.settings.TitaniumSettings" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

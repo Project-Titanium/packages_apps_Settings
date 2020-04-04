@@ -38,4 +38,8 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total RAM</string>
 
+    <!-- Titanium Settings -->
+    <string name="titanium_settings_title">Titanium settings</string>
+    <string name="titanium_settings_summary">Here is where the memes begin</string>
+
 </resources>
