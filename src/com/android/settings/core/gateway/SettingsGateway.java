@@ -326,6 +326,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             // Home page > Meme settings
-            Settings.TitaniumSettingsActivity.class.getname(),
+            Settings.TitaniumSettingsActivity.class.getName(),
     };
 }
