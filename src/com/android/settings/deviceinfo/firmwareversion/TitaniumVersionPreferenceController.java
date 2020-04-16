@@ -25,7 +25,10 @@ import com.android.settings.core.BasePreferenceController;
 public class TitaniumVersionPreferenceController extends BasePreferenceController {
 
     @VisibleForTesting
-    private static final String TITANIUM_VERSION_PROPERTY = "ro.titanium.build.version";
+    private static final String TITANIUM_NUM_VERSION = "ro.titanium.build.version";
+    private static final String TITANIUM_BUILD_TYPE = "ro.titanium.buildtype";
+    private static final String TITANIUM_BUILD_DATE = "ro.titanium.build.date";
+
 
     public TitaniumVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
@@ -38,7 +41,16 @@ public class TitaniumVersionPreferenceController extends BasePreferenceControlle
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(TITANIUM_VERSION_PROPERTY,
-                mContext.getString(R.string.device_info_default));
+       /* return SystemProperties.get(TITANIUM_VERSION_PROPERTY,
+                mContext.getString(R.string.device_info_default)); */
+     String titaniumVer =  SystemProperties.get(TITANIUM_NUM_VERSION);
+     String titaniumDate = SystemProperties.get(TITANIUM_BUILD_DATE);
+     String titaniumType = SystemProperties.get(TITANIUM_BUILD_TYPE);
+
+      if (!titaniumVer.isEmpty() && !titaniumDate.isEmpty() && !titaniumType.isEmpty())
+	    return titaniumVer + " | " + titaniumDate + " | " + titaniumType;
+	else
+            return mContext.getString(R.string.unknown);
+
     }
 }
