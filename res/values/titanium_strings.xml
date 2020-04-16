@@ -42,4 +42,9 @@
     <string name="titanium_settings_title">Titanium settings</string>
     <string name="titanium_settings_summary">Here is where the memes begin</string>
 
+    <!-- Maintainer Name -->
+    <string name="maintainer_name">ProjectTitanium Maintainer</string>
+    <string name="maintainer_name_default">Unknown</string>
+    <string name="keywords_maintainer_name">Maintainer Name</string>
+
 </resources>
