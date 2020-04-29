@@ -323,7 +323,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
             BACK_GESTURE_OVERLAYS_TO_USE = BACK_GESTURE_INSET_OVERLAYS_NO_PILL;
         else
             BACK_GESTURE_OVERLAYS_TO_USE = BACK_GESTURE_INSET_OVERLAYS;
-
+}
     static void setBackHeight(Context context, int height) {
         // height cant be range 0 - 3
         // 0 means full height
